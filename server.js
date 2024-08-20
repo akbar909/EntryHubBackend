@@ -15,7 +15,7 @@ const DB_URL = process.env.MONGO_DB_URL;
 app.use(express.json());
 
 app.use(cors({
-    origin: ['https://entry-hub-frontend.vercel.app/'],
+    origin: ['https://entry-hub-frontend.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
